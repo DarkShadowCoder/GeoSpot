@@ -26,14 +26,14 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
-    "plugins": [
+    /*plugins": [
       "expo-router",
       "expo-font",
       "expo-location",
       {
         "locationAlwaysAndWhenInUsePermission": "Allow GeoSpot App  to use your location"
       }
-    ],
+    ],*/
     "experiments": {
       "typedRoutes": true
     }

@@ -6,7 +6,7 @@ import { UserLocationContext } from '@/app/Context/UserLocationContext'
 
 
 const AppMapView = () => {
-  const {userLocation, setLocation} = useContext(UserLocationContext);
+  //const [userLocation, setLocation] = useContext(UserLocationContext);
   return location?.latitude &&(
     <View style={styles.container}>
       <MapView 
